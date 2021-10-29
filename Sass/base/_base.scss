@@ -20,6 +20,10 @@ body {
   box-sizing: border-box;
   height: 100%;
   overflow-x: hidden;
+
+  @include respond(mobile) {
+    overflow: auto;
+  }
 }
 
 // .container-wrapper {
