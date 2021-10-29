@@ -97,6 +97,12 @@ body {
   overflow-x: hidden;
 }
 
+.home-body {
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 .container-destination,
 .container-crew,
 .container-technology,

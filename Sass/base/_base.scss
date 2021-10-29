@@ -26,6 +26,17 @@ body {
   }
 }
 
+.home-body {
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+
+  @include respond(mobile) {
+    overflow: unset;
+    overflow-x: hidden;
+  }
+}
+
 // .container-wrapper {
 //   @include respond(tab-land) {
 //     height: 100vh;
