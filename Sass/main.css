@@ -539,7 +539,7 @@ body {
   background-size: cover;
   background-position: top;
   overflow-y: hidden;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   overflow-y: scroll;
@@ -553,7 +553,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: unset;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     overflow-y: scroll;
@@ -568,7 +568,7 @@ body {
     background: url(../images/background-crew-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     overflow-y: scroll;
@@ -584,7 +584,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     overflow-y: scroll;
@@ -809,7 +809,7 @@ body {
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   overflow-y: scroll;
@@ -822,7 +822,7 @@ body {
     background: url(../images/background-destination-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     overflow-y: scroll;
@@ -836,7 +836,7 @@ body {
     background: url(../images/background-destination-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     overflow-y: scroll;
@@ -852,7 +852,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     /* Preserve aspet ratio */
@@ -987,7 +987,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   /* Preserve aspet ratio */
@@ -1000,7 +1000,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     /* Preserve aspet ratio */
@@ -1014,7 +1014,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     overflow-y: scroll;
@@ -1025,10 +1025,11 @@ body {
 }
 @media (max-width: 40.5em) {
   .container-home {
+    background-position: center;
     background: url(../images/background-home-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     /* Preserve aspet ratio */
@@ -1101,7 +1102,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   /* Preserve aspet ratio */
@@ -1113,7 +1114,7 @@ body {
     background: url(../images/background-technology-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     /* Preserve aspet ratio */
@@ -1126,7 +1127,7 @@ body {
     background: url(../images/background-technology-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     /* Preserve aspet ratio */

@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
 
@@ -19,7 +19,7 @@
     background-size: cover;
     background-position: center;
     // height: 100vh;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
 
@@ -33,7 +33,7 @@
     background-size: cover;
     background-position: center;
     // height: 100vh;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     overflow-y: scroll;
@@ -43,12 +43,12 @@
   }
   @include respond(phone) {
     // height: 100vh;
-
+    background-position: center;
     background: url(../images/background-home-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     // overflow-y: scroll;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
 
