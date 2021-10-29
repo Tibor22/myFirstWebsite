@@ -1076,7 +1076,7 @@ body {
 @media (max-width: 40.5em) {
   .home-main {
     flex-direction: column;
-    margin: 0rem 0rem 9rem 0rem;
+    margin: 4rem 0rem 5rem 0rem;
     text-align: center;
     justify-content: center;
     align-items: center;
