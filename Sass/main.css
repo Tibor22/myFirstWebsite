@@ -602,6 +602,8 @@ body {
     min-width: 100%;
     min-height: 100%;
     overflow-x: hidden;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
   }
 }
 
