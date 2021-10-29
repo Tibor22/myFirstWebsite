@@ -184,7 +184,6 @@ body {
   letter-spacing: 4.75px;
   text-transform: uppercase;
   color: #d0d6f9be;
-  margin-top: 4rem;
   margin-bottom: 1rem;
 }
 
@@ -1077,7 +1076,7 @@ body {
 @media (max-width: 40.5em) {
   .home-main {
     flex-direction: column;
-    margin: 0rem 0rem 9rem 0rem;
+    margin: 8rem 0rem 9rem 0rem;
     text-align: center;
     justify-content: center;
     align-items: center;
