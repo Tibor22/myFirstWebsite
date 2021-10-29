@@ -1,0 +1,81 @@
+.container-home {
+  background: url(/images/background-home-desktop.jpg);
+  height: 100vh;
+  //   max-width: 1800px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  @include respond(tab-land) {
+    background: url(/images/background-home-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  @include respond(tab-port) {
+    background: url(/images/background-home-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  @include respond(phone) {
+    height: 100vh;
+    overflow-y: hidden;
+    background: url(/images/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+  }
+}
+
+.home-main {
+  margin: 20vh 20rem 0vh 20rem;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  @include respond(tab-land) {
+    flex-direction: column;
+    margin: 0rem 0rem 0rem 0rem;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+  }
+  @include respond(phone) {
+    flex-direction: column;
+    margin: 8rem 0rem 4rem 0rem;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__description {
+    max-width: 55rem;
+    @include respond(tab-land) {
+      margin-bottom: 6rem;
+    }
+    @include respond(tab-land) {
+      min-width: 37rem;
+      max-width: 80%;
+    }
+  }
+  .heading-5 {
+    margin-bottom: 2.7rem;
+    @include respond(tab-land) {
+      padding-top: 4rem;
+    }
+    @include respond(tab-port) {
+      font-size: 3.2rem;
+      padding-top: 10rem;
+    }
+  }
+  .para {
+    line-height: 30px;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}

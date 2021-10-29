@@ -1,0 +1,183 @@
+.container-technology {
+  background: url(/images/background-technology-desktop.jpg);
+  height: 100vh;
+  //   max-width: 1800px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  overflow-y: hidden;
+  @include respond(tab-land) {
+    background: url(/images/background-technology-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  @include respond(tab-port) {
+    background: url(/images/background-technology-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  @include respond(phone) {
+    background: url(/images/background-technology-mobile.jpg);
+  }
+}
+
+.meet-technology {
+  margin: 5rem 0rem 5rem 15rem;
+  @include respond(tab-land) {
+    margin-left: 4.5rem;
+  }
+  @include respond(phone) {
+    width: 100%;
+    text-align: center;
+    margin-left: 0rem;
+  }
+}
+
+.technology__right {
+  display: flex;
+  gap: 8rem;
+  @include respond(tab-land) {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.technology__showcase {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15rem;
+  gap: 8rem;
+  @include respond(tab-land) {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-left: 0rem;
+    margin-top: 15rem;
+
+    align-items: center;
+    margin-bottom: 7rem;
+  }
+
+  &--ul {
+    @include respond(tab-land) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+
+      margin-top: -10rem;
+    }
+  }
+  &--item {
+    width: 8.5rem;
+    height: 8.5rem;
+    list-style-type: none;
+    margin-bottom: 3rem;
+  }
+  &--link {
+    display: flex;
+    color: white;
+
+    border: 0.5px solid white;
+    font-size: 5rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    &:hover {
+      color: black;
+      background-color: white;
+    }
+  }
+
+  &--description {
+    max-width: 45rem;
+    @include respond(tab-land) {
+      text-align: center;
+      max-width: 55rem;
+    }
+  }
+
+  &--image-1 {
+    height: 50rem;
+    width: 50rem;
+    object-fit: cover;
+    background: url(/images/image-launch-vehicle-portrait.jpg);
+    transform: translate(0rem, -8rem);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // background-color: red;
+
+    @include respond(tab-land) {
+      width: 100vw;
+      height: 40rem;
+
+      background: url(/images/image-launch-vehicle-landscape.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  &--image-2 {
+    height: 50rem;
+    width: 50rem;
+    object-fit: cover;
+    background: url(/images/image-spaceport-portrait.jpg);
+    transform: translate(0rem, -8rem);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // background-color: red;
+
+    @include respond(tab-land) {
+      width: 100vw;
+      height: 40rem;
+
+      background: url(/images/image-spaceport-landscape.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  &--image-3 {
+    height: 50rem;
+    width: 50rem;
+    object-fit: cover;
+    background: url(/images/image-space-capsule-portrait.jpg);
+    transform: translate(0rem, -8rem);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // background-color: red;
+
+    @include respond(tab-land) {
+      width: 100vw;
+      height: 40rem;
+
+      background: url(/images/image-space-capsule-landscape.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
+
+.technology__showcase--description-subhead {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: $color-secondary-light;
+  margin-bottom: 2rem;
+}
+
+.para {
+  line-height: 2.4rem;
+}

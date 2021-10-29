@@ -1,0 +1,237 @@
+.container-crew {
+  background: url(/images/background-crew-desktop.jpg);
+  height: 100vh;
+  //   max-width: 1800px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  overflow-y: hidden;
+  @include respond(tab-land) {
+    background: url(/images/background-crew-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow-y: unset;
+  }
+  @include respond(tab-port) {
+    height: 100%;
+    // overflow-y: scroll;
+    background: url(/images/background-crew-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @include respond(phone) {
+    height: 100%;
+    overflow-y: hidden;
+    background: url(/images/background-crew-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+  }
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // gap: 5rem;
+}
+
+.meet-crew {
+  // @include respond(tab-land) {
+  //   margin-left: -65vw;
+  // }
+  display: none;
+}
+.meet-crew {
+  @include respond(desktop) {
+    display: unset;
+  }
+
+  @include respond(tab-port) {
+    display: none;
+  }
+  @include respond(phone) {
+    display: none;
+  }
+}
+.meet-crew-phone {
+  order: -3;
+
+  @include respond(desktop) {
+    display: none;
+  }
+
+  @include respond(tab-land) {
+    // display: none;
+    text-align: left;
+    width: 120%;
+    color: white;
+    font-size: 2.8rem;
+    span {
+      color: rgba(255, 255, 255, 0.514);
+      font-family: $family-Barlow;
+      margin-right: 2rem;
+    }
+  }
+  @include respond(tab-port) {
+    text-align: left;
+    width: 120%;
+    color: white;
+    font-size: 2.8rem;
+    span {
+      color: rgba(255, 255, 255, 0.514);
+      font-family: $family-Barlow;
+      margin-right: 2rem;
+    }
+  }
+  @include respond(phone) {
+    font-size: 2.6rem;
+    text-align: center;
+    color: white;
+    margin-top: -5rem;
+    span {
+      color: rgb(126, 122, 122);
+    }
+  }
+}
+
+.crew {
+  margin: 6rem 17rem 0rem 17rem;
+  // width: 100%;
+
+  display: flex;
+
+  gap: 15rem;
+  height: 75vh;
+
+  @include respond(tab-land) {
+    flex-direction: column;
+    margin-top: 8rem;
+    height: 50%;
+    align-items: center;
+    text-align: center;
+  }
+  @include respond(tab-port) {
+    flex-direction: column;
+    margin-top: 8rem;
+    height: 50%;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+  }
+  @include respond(phone) {
+    // margin-top: 13rem;
+    margin: 10rem 0rem 0rem 0rem;
+    gap: 5rem;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 50rem;
+    @include respond(tab-land) {
+      max-width: 60rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      // background-color: yellow;
+    }
+    @include respond(phone) {
+      max-width: 80%;
+    }
+  }
+
+  &__descripiton {
+    &--title {
+      padding-bottom: 5rem;
+    }
+    @include respond(phone) {
+      max-width: 80%;
+    }
+  }
+
+  &__image {
+    // background-color: red;
+
+    @include respond(tab-land) {
+      height: 100%;
+      width: 50rem;
+    }
+    @include respond(tab-port) {
+      height: 100%;
+      width: 70%;
+      color: red;
+    }
+    @include respond(phone) {
+      height: 100%;
+      max-width: 45rem;
+      order: -1;
+    }
+    img {
+      height: 100%;
+      width: 500px;
+      @include respond(tab-port) {
+        width: 100%;
+        height: 120%;
+      }
+      @include respond(phone) {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    @include respond(phone) {
+      // background-color: red;
+      max-height: 120%;
+      width: 90%;
+      margin-bottom: 0rem;
+      border-bottom: 0.1px solid rgba(255, 255, 255, 0.171);
+    }
+  }
+
+  &__switch {
+    display: flex;
+
+    @include respond(phone) {
+      order: -1;
+
+      margin-bottom: 4rem;
+    }
+    &--list {
+      display: flex;
+      list-style: none;
+    }
+    &--item {
+      margin-right: 1.8rem;
+      width: 1.5rem;
+      height: 1.5rem;
+
+      position: relative;
+    }
+
+    &--link {
+      background-color: white;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      padding: 0.3rem;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.281);
+      border-radius: 50%;
+
+      &:hover {
+        background-color: white;
+        transition: all 0.4s;
+      }
+    }
+  }
+}
+
+.white-link {
+  background-color: white;
+
+  width: 120%;
+  height: 120%;
+}

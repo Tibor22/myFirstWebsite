@@ -1,0 +1,53 @@
+.explore-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  button {
+    border-style: none;
+    outline: none;
+    font-size: 3rem;
+    font-family: $family-Bellefair;
+    font-weight: 300;
+    color: $color-bg;
+    background-color: transparent;
+    @include respond(tab-land) {
+      font-size: 3.7rem;
+      letter-spacing: 1rem;
+    }
+  }
+  width: 22rem;
+  height: 22rem;
+  //   transform: scale(0.7);
+  border-radius: 50%;
+  background: $color-primary;
+  font-size: 3rem;
+  transition: transform 0.3s;
+  @include respond(tab-land) {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  ::before {
+    position: absolute;
+    z-index: 0;
+    content: "";
+    width: 34rem;
+    height: 34rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.6);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.212) 10%;
+    font-size: 3rem;
+    transition: transform 0.3s;
+    @include respond(tab-land) {
+      width: 40rem;
+      height: 40rem;
+    }
+  }
+  &:hover ::before {
+    cursor: pointer;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

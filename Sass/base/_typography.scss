@@ -1,0 +1,163 @@
+body {
+  // font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 1;
+  color: $color-bg;
+
+  box-sizing: border-box;
+  // font-size: 5rem;
+  //   font-family: $family-Barlow;
+}
+
+// Headings
+
+.heading-1 {
+  font-size: 15rem;
+  font-family: "Bellefair", serif;
+  color: $color-primary;
+  text-transform: uppercase;
+  letter-spacing: unset;
+  @include respond(tab-port) {
+    font-size: 18rem;
+    letter-spacing: unset;
+  }
+  @include respond(tab-land) {
+    font-size: 20rem;
+    letter-spacing: unset;
+  }
+  @include respond(phone) {
+    font-size: 10rem;
+    max-width: 100%;
+    letter-spacing: 1rem;
+  }
+}
+
+.heading-2 {
+  font-size: 10rem;
+  font-family: "Bellefair", serif;
+  color: $color-primary;
+}
+
+.heading-3 {
+  font-size: 5rem;
+  font-family: "Bellefair", serif;
+  text-transform: uppercase;
+  color: $color-primary;
+  margin-bottom: 3rem;
+  @include respond(phone) {
+    font-size: 4rem;
+  }
+}
+
+.heading-4 {
+  font-size: 3rem;
+  font-family: "Bellefair", serif;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.397);
+}
+.heading-5 {
+  font-size: 3.6rem;
+  font-family: $family-Barlow;
+  letter-spacing: 4.75px;
+  text-transform: uppercase;
+  color: $color-secondary-light;
+}
+
+.destination,
+.meet-crew,
+.meet-technology {
+  color: white;
+  font-size: 2.8rem;
+  span {
+    color: rgba(255, 255, 255, 0.514);
+    font-family: $family-Barlow;
+    margin-right: 2rem;
+  }
+  margin-bottom: 10rem;
+  @include respond(phone) {
+    font-size: 2.4rem;
+  }
+}
+
+// Paragraph
+
+.para {
+  font-size: 2rem;
+  color: $color-secondary-light;
+  font-weight: 300;
+  line-height: 2.1rem;
+}
+.crew__description--bio {
+  font-size: 2rem;
+  color: $color-secondary;
+  font-weight: 300;
+  line-height: 2.1rem;
+  max-width: 100%;
+  margin-bottom: 7rem;
+  text-align: center;
+  @include respond(phone) {
+    line-height: 1rem;
+  }
+}
+
+.planet__para {
+  font-size: 1.8rem;
+  color: $color-secondary;
+  font-weight: 300;
+  line-height: 2.1rem;
+  max-width: 40rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.377);
+  @include respond(tab-land) {
+    max-width: 70%;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  @include respond(phone) {
+    line-height: 2.5rem;
+    font-weight: 200;
+    max-width: 80%;
+  }
+}
+
+.destination {
+  text-transform: uppercase;
+}
+
+.sub-heading-1 {
+  font-size: 2.6rem;
+  font-family: "Bellefair", serif;
+  text-transform: uppercase;
+  color: $color-primary;
+  @include respond(phone) {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+  }
+}
+.sub-heading-2 {
+  letter-spacing: 2.35px;
+  font-size: 1.2rem;
+  font-family: "Bellefair", serif;
+  text-transform: uppercase;
+  color: $color-secondary;
+  margin-bottom: 1rem;
+}
+
+.link {
+  font-family: $family-Barlow;
+  font-size: 1.6rem;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1800px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  html {
+    font-size: 90%;
+  }
+}

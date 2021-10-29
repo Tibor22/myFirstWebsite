@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+// .container-wrapper {
+//   @include respond(tab-land) {
+//     height: 100vh;
+//   }
+//   @include respond(tab-small) {
+//     height: 100%;
+//   }
+
+//   @include respond(tab-port) {
+//     height: 100vh;
+//   }
+//   @include respond(phone) {
+//     height: 100%;
+//   }
+// }
+
+.container-destination,
+.container-crew,
+.container-technology,
+.container-home {
+  padding-top: 5rem;
+  @include respond(tab-land) {
+    // padding-bottom: 5rem;
+  }
+}

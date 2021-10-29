@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Sass/main.css" />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body>
+    <div class="container-wrapper">
+      <div class="container-destination">
+        <nav class="navbar">
+          <div class="btn-ham"></div>
+          <div class="navbar__logo">
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <div class="navbar__items">
+            <ul class="navbar__ul">
+              <li class="navbar__item">
+                <a class="navbar__link link" href="index.html">
+                  <span>00</span> Home</a
+                >
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link link" href="destination-moon.html">
+                  <span>01</span> Destination</a
+                >
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link link" href="crew-commander.html">
+                  <span>02</span> Crew</a
+                >
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link link" href="technology-vehicle.html">
+                  <span>03</span> Technology</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="planet__header">
+          <div class="heading-5 destination">
+            <span>01</span> Pick your destination
+          </div>
+        </div>
+        <div class="planet">
+          <div class="planet__img">
+            <img src="images/image-titan.png" alt="" />
+          </div>
+          <div class="planet__description">
+            <div class="planet__list">
+              <ul class="planet__ul">
+                <li class="planet__item">
+                  <a class="planet__link link" href="destination-moon.html"
+                    >MOON</a
+                  >
+                </li>
+                <li class="planet__item">
+                  <a class="planet__link link" href="destination-mars.html"
+                    >MARS</a
+                  >
+                </li>
+                <li class="planet__item">
+                  <a class="planet__link link" href="destination-europa.html"
+                    >EUROPA</a
+                  >
+                </li>
+                <li class="planet__item">
+                  <a class="planet__link link" href="destination-titan.html"
+                    >TITAN</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="heading-2">TITAN</div>
+            <div class="planet__para">
+              The only moon known to have a dense atmosphere other than Earth,
+              Titan is a home away from home (just a few hundred degrees
+              colder!). As a bonus, you get striking views of the Rings of
+              Saturn.
+            </div>
+            <div class="planet__data">
+              <div class="planet__data--distance">
+                <div class="sub-heading-2">Avg. distance</div>
+                <div class="sub-heading-1">1.6 bil. km</div>
+              </div>
+              <div class="planet__data--time">
+                <div class="sub-heading-2">Est. travel time</div>
+                <div class="sub-heading-1">7 years</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="destination4.js"></script>
+  </body>
+</html>
