@@ -533,7 +533,7 @@ body {
   }
 }
 .container-crew {
-  background: url(/images/background-crew-desktop.jpg);
+  background: url(../images/background-crew-desktop.jpg);
   height: 100vh;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -543,7 +543,7 @@ body {
 }
 @media (max-width: 75em) {
   .container-crew {
-    background: url(/images/background-crew-tablet.jpg);
+    background: url(../images/background-crew-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -553,7 +553,7 @@ body {
 @media (max-width: 56.25em) {
   .container-crew {
     height: 100%;
-    background: url(/images/background-crew-tablet.jpg);
+    background: url(../images/background-crew-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -562,7 +562,7 @@ body {
   .container-crew {
     height: 100%;
     overflow-y: hidden;
-    background: url(/images/background-crew-mobile.jpg);
+    background: url(../images/background-crew-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
@@ -780,7 +780,7 @@ body {
 }
 
 .container-destination {
-  background: url(/images/background-destination-desktop.jpg);
+  background: url(../images/background-destination-desktop.jpg);
   height: 100vh;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -788,7 +788,7 @@ body {
 }
 @media (max-width: 75em) {
   .container-destination {
-    background: url(/images/background-destination-tablet.jpg);
+    background: url(../images/background-destination-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -796,7 +796,7 @@ body {
 }
 @media (max-width: 56.25em) {
   .container-destination {
-    background: url(/images/background-destination-tablet.jpg);
+    background: url(../images/background-destination-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -806,7 +806,7 @@ body {
   .container-destination {
     height: auto;
     overflow-y: hidden;
-    background: url(/images/background-destination-mobile.jpg);
+    background: url(../images/background-destination-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
@@ -934,7 +934,7 @@ body {
 }
 
 .container-home {
-  background: url(/images/background-home-desktop.jpg);
+  background: url(../images/background-home-desktop.jpg);
   height: 100vh;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -943,7 +943,7 @@ body {
 }
 @media (max-width: 75em) {
   .container-home {
-    background: url(/images/background-home-tablet.jpg);
+    background: url(../images/background-home-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -952,7 +952,7 @@ body {
 }
 @media (max-width: 56.25em) {
   .container-home {
-    background: url(/images/background-home-tablet.jpg);
+    background: url(../images/background-home-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -963,7 +963,7 @@ body {
   .container-home {
     height: 100vh;
     overflow-y: hidden;
-    background: url(/images/background-home-mobile.jpg);
+    background: url(../images/background-home-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
@@ -1029,7 +1029,7 @@ body {
 }
 
 .container-technology {
-  background: url(/images/background-technology-desktop.jpg);
+  background: url(../images/background-technology-desktop.jpg);
   height: 100vh;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -1039,7 +1039,7 @@ body {
 }
 @media (max-width: 75em) {
   .container-technology {
-    background: url(/images/background-technology-tablet.jpg);
+    background: url(../images/background-technology-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -1048,7 +1048,7 @@ body {
 }
 @media (max-width: 56.25em) {
   .container-technology {
-    background: url(/images/background-technology-tablet.jpg);
+    background: url(../images/background-technology-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -1057,7 +1057,7 @@ body {
 }
 @media (max-width: 40.5em) {
   .container-technology {
-    background: url(/images/background-technology-mobile.jpg);
+    background: url(../images/background-technology-mobile.jpg);
   }
 }
 
@@ -1150,7 +1150,7 @@ body {
   width: 50rem;
   -o-object-fit: cover;
      object-fit: cover;
-  background: url(/images/image-launch-vehicle-portrait.jpg);
+  background: url(../images/image-launch-vehicle-portrait.jpg);
   transform: translate(0rem, -8rem);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1160,7 +1160,7 @@ body {
   .technology__showcase--image-1 {
     width: 100vw;
     height: 40rem;
-    background: url(/images/image-launch-vehicle-landscape.jpg);
+    background: url(../images/image-launch-vehicle-landscape.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1171,7 +1171,7 @@ body {
   width: 50rem;
   -o-object-fit: cover;
      object-fit: cover;
-  background: url(/images/image-spaceport-portrait.jpg);
+  background: url(../images/image-spaceport-portrait.jpg);
   transform: translate(0rem, -8rem);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1181,7 +1181,7 @@ body {
   .technology__showcase--image-2 {
     width: 100vw;
     height: 40rem;
-    background: url(/images/image-spaceport-landscape.jpg);
+    background: url(../images/image-spaceport-landscape.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1202,7 +1202,7 @@ body {
   .technology__showcase--image-3 {
     width: 100vw;
     height: 40rem;
-    background: url(/images/image-space-capsule-landscape.jpg);
+    background: url(../images/image-space-capsule-landscape.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

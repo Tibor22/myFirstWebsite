@@ -1,5 +1,5 @@
 .container-destination {
-  background: url(/images/background-destination-desktop.jpg);
+  background: url(../images/background-destination-desktop.jpg);
   height: 100vh;
   //   max-width: 1800px;
   margin: 0 auto;
@@ -7,13 +7,13 @@
   background-size: cover;
   //   background-position: right;
   @include respond(tab-land) {
-    background: url(/images/background-destination-tablet.jpg);
+    background: url(../images/background-destination-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
   }
   @include respond(tab-port) {
-    background: url(/images/background-destination-tablet.jpg);
+    background: url(../images/background-destination-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -21,7 +21,7 @@
   @include respond(phone) {
     height: auto;
     overflow-y: hidden;
-    background: url(/images/background-destination-mobile.jpg);
+    background: url(../images/background-destination-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
