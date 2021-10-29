@@ -96,6 +96,11 @@ body {
   height: 100vh;
   overflow-x: hidden;
 }
+@media (max-width: 56.25em) {
+  body {
+    overflow: auto;
+  }
+}
 
 .home-body {
   box-sizing: border-box;
@@ -610,6 +615,9 @@ body {
     /* Preserve aspet ratio */
     min-width: 100%;
     min-height: 100%;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
+    overflow-x: hidden;
   }
 }
 @media (max-width: 40.5em) {

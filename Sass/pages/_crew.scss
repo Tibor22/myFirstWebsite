@@ -41,6 +41,8 @@
     /* Preserve aspet ratio */
     min-width: 100%;
     min-height: 100%;
+    overscroll-behavior: none;
+    overflow-x: hidden;
   }
   @include respond(phone) {
     // height: 100%;
