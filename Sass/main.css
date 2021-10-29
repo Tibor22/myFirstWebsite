@@ -534,20 +534,32 @@ body {
 }
 .container-crew {
   background: url(../images/background-crew-desktop.jpg);
-  height: 100vh;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   overflow-y: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 @media (max-width: 75em) {
   .container-crew {
     background: url(../images/background-crew-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
     overflow-y: unset;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 @media (max-width: 56.25em) {
@@ -556,16 +568,29 @@ body {
     background: url(../images/background-crew-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 @media (max-width: 40.5em) {
   .container-crew {
-    height: 100%;
     overflow-y: hidden;
     background: url(../images/background-crew-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 
@@ -781,17 +806,29 @@ body {
 
 .container-destination {
   background: url(../images/background-destination-desktop.jpg);
-  height: 100vh;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 @media (max-width: 75em) {
   .container-destination {
     background: url(../images/background-destination-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 @media (max-width: 56.25em) {
@@ -799,17 +836,28 @@ body {
     background: url(../images/background-destination-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 @media (max-width: 40.5em) {
   .container-destination {
     height: auto;
-    overflow-y: hidden;
     background: url(../images/background-destination-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 
@@ -935,11 +983,16 @@ body {
 
 .container-home {
   background: url(../images/background-home-desktop.jpg);
-  height: 100vh;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 @media (max-width: 75em) {
   .container-home {
@@ -947,7 +1000,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 @media (max-width: 56.25em) {
@@ -956,17 +1014,26 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 @media (max-width: 40.5em) {
   .container-home {
-    height: 100vh;
-    overflow-y: hidden;
     background: url(../images/background-home-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 
@@ -1030,20 +1097,28 @@ body {
 
 .container-technology {
   background: url(../images/background-technology-desktop.jpg);
-  height: 100vh;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  overflow-y: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 @media (max-width: 75em) {
   .container-technology {
     background: url(../images/background-technology-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 @media (max-width: 56.25em) {
@@ -1051,8 +1126,12 @@ body {
     background: url(../images/background-technology-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 @media (max-width: 40.5em) {
@@ -1192,7 +1271,7 @@ body {
   width: 50rem;
   -o-object-fit: cover;
      object-fit: cover;
-  background: url(/images/image-space-capsule-portrait.jpg);
+  background: url(../images/image-space-capsule-portrait.jpg);
   transform: translate(0rem, -8rem);
   background-repeat: no-repeat;
   background-size: cover;

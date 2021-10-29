@@ -1,32 +1,60 @@
 .container-home {
   background: url(../images/background-home-desktop.jpg);
-  height: 100vh;
+  // height: 100vh;
   //   max-width: 1800px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
   @include respond(tab-land) {
     background: url(../images/background-home-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    // height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
   @include respond(tab-port) {
     background: url(../images/background-home-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    // height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
   @include respond(phone) {
-    height: 100vh;
-    overflow-y: hidden;
+    // height: 100vh;
+
     background: url(../images/background-home-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-y: scroll;
+    // overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 

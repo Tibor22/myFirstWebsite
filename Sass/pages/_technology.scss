@@ -1,25 +1,46 @@
 .container-technology {
   background: url(../images/background-technology-desktop.jpg);
-  height: 100vh;
+  // height: 100vh;
   //   max-width: 1800px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  overflow-y: hidden;
+  // overflow-y: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  // overflow-y: scroll;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
   @include respond(tab-land) {
     background: url(../images/background-technology-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    overflow-y: scroll;
+    // height: 100%;
+    // overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
   @include respond(tab-port) {
     background: url(../images/background-technology-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    overflow-y: scroll;
+    // height: 100vh;
+    // overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    // overflow-y: scroll;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
   @include respond(phone) {
     background: url(../images/background-technology-mobile.jpg);
@@ -152,7 +173,7 @@
     height: 50rem;
     width: 50rem;
     object-fit: cover;
-    background: url(/images/image-space-capsule-portrait.jpg);
+    background: url(../images/image-space-capsule-portrait.jpg);
     transform: translate(0rem, -8rem);
     background-repeat: no-repeat;
     background-size: cover;
