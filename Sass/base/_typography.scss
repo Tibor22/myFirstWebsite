@@ -71,6 +71,18 @@ body {
   color: $color-secondary-light;
   // margin-top: 4rem;
   margin-bottom: 1rem;
+  @include respond(tab-land) {
+    padding-top: 4rem;
+  }
+  @include respond(tab-port) {
+    font-size: 3.2rem;
+    padding-top: 10rem;
+  }
+  @include respond(tab-port) {
+    font-size: 3.2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 
 .destination,

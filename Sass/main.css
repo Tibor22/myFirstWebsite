@@ -186,6 +186,24 @@ body {
   color: #d0d6f9be;
   margin-bottom: 1rem;
 }
+@media (max-width: 75em) {
+  .heading-5-home {
+    padding-top: 4rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .heading-5-home {
+    font-size: 3.2rem;
+    padding-top: 10rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .heading-5-home {
+    font-size: 3.2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
 
 .destination,
 .meet-crew,
