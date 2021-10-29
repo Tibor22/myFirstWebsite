@@ -172,6 +172,15 @@ body {
   color: #d0d6f9be;
 }
 
+.heading-5-home {
+  font-size: 3.6rem;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 4.75px;
+  text-transform: uppercase;
+  color: #d0d6f9be;
+  margin-bottom: 1rem;
+}
+
 .destination,
 .meet-crew,
 .meet-technology {
@@ -1057,7 +1066,7 @@ body {
 @media (max-width: 40.5em) {
   .home-main {
     flex-direction: column;
-    margin: -2rem 0rem 9rem 0rem;
+    margin: 8rem 0rem 9rem 0rem;
     text-align: center;
     justify-content: center;
     align-items: center;
