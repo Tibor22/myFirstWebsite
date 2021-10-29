@@ -197,7 +197,7 @@ body {
     padding-top: 10rem;
   }
 }
-@media (max-width: 56.25em) {
+@media (max-width: 40.5em) {
   .heading-5-home {
     font-size: 3.2rem;
     padding-top: 2rem;
