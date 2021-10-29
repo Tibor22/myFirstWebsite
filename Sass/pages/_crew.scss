@@ -150,9 +150,9 @@
   }
   @include respond(phone) {
     // margin-top: 13rem;
-    margin: 8rem 0rem 0rem 0rem;
+    margin: 10rem 0rem 0rem 0rem;
     gap: 5rem;
-    height: auto;
+    height: 100vh;
   }
 
   &__container {

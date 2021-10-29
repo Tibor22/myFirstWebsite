@@ -700,9 +700,9 @@ body {
 }
 @media (max-width: 40.5em) {
   .crew {
-    margin: 8rem 0rem 0rem 0rem;
+    margin: 10rem 0rem 0rem 0rem;
     gap: 5rem;
-    height: auto;
+    height: 100vh;
   }
 }
 .crew__container {
